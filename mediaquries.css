@@ -1,0 +1,258 @@
+@media (max-width: 1024px) {
+    .heading h1{
+        font-size: 42px;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sub-title{
+        flex-direction: column;
+    }
+
+    .points-img img{
+        box-shadow: 0 0 32px var(--accent);
+    }
+    
+    .key-card{
+        width: 45%;
+    }
+
+    .sample-dash{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        height: 50px;
+    }
+
+    .divs-line{
+        height: 300px;
+        margin: auto;
+    }
+
+
+    .works-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flow-card{
+        width: 45%;
+    }
+
+    .stack-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stack-cards .key-card{
+        width: 80%;
+    }
+
+    .footer-top{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    nav{
+        /* flex-direction: column; */
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .cta-btn{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .heading h1{
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .heading p{
+        font-size: 12px;
+    }
+
+    #hero{
+        padding: 10px;
+        min-height: 30vh;
+    }
+
+    /* OVERVIEW */
+    #overview{
+        padding: 10px;
+    }
+    .sub-title {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .overview-title p, .overview2-title p{
+        font-size: 15px;
+    }
+
+    .overview-title h3, .overview2-title h3{
+        font-size: 35px;
+    }
+    /* key capabilities */
+    #key-cap{
+        padding: 10px;
+    }
+
+    .cards{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    /* DASHBOARD */
+    #dash-prev{
+        padding: 10px;
+    }
+    .sample-dash {
+        flex-direction: column;
+    }
+
+    .dash-img-1 img,
+    .dash-img-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    #dash-prev .sub-title p{
+        text-align: left;
+    }
+
+    /* HOW IT WORKS */
+    #how-works{
+        padding: 10px;
+    }
+    .works-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flow-card {
+        width: 100%;
+    }
+
+    /* USE CASE */
+    #use-case{
+        padding: 10px;
+    }
+    .uc-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #use-case .sub-title p{
+        text-align: left;
+    }
+
+    /* SAAS */
+    #saas-cap{
+        padding: 10px;
+    }
+    .divs {
+        flex-direction: column;
+    }
+
+    .divs-line {
+        width: 220px;
+        height: 4px;
+        margin: 0;
+    }
+
+    .divs{
+        gap: 20px;
+    }
+
+    .d-line{
+        padding: 0 20px;
+    }
+
+    /* INTEGRATION */
+    #integration{
+        padding: 10px;
+    }
+    .stack-cards {
+        flex-direction: column;
+    }
+
+    .stack-cards .key-card {
+        width: 100%;
+    }
+
+    /* WHY US */
+    #why-us{
+        padding: 10px;
+    }
+    .why-us-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-brand p{
+        max-width: max-content;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #hero{
+        min-height: 90vh;
+        margin-top: 30px;
+    }
+
+    #hero .cta-btn{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .heading h1 {
+        font-size: 25px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .key-card{
+        width: 100%;
+    }
+
+    .top-card p {
+        font-size: 11px;
+    }
+
+    .overview-title h3,
+    .overview2-title h3 {
+        font-size: 26px;
+    }
+
+    .btn-1, .btn-2 {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+}

@@ -198,8 +198,8 @@ img{
     padding: 10px 20px;
     color: var(--bg);
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
     gap: 40px;  
 }
 
@@ -210,7 +210,7 @@ img{
 .points-img img{
     box-shadow: 100px -50px 100px var(--accent);
     margin: auto;
-    height: 360px;
+    /* height: 360px; */
     width: 100%;
     border: rgba(128, 128, 128, 0.507) 1px solid;
 }
@@ -228,8 +228,7 @@ img{
 #key-cap{
     min-height: 80vh;
     height: auto;
-    margin: 20px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     margin-top: 30px;
     animation: fadeInUp  ease-out;
@@ -259,7 +258,7 @@ img{
     background: var(--panel);
     padding: 20px;
     border-radius: 15px;
-    width: 225px;
+    /* width: 225px; */
     border: var(--border) 1px solid;
     transition: all 200ms ease;
 }
@@ -294,6 +293,8 @@ img{
 
 .cards{
     display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
@@ -315,7 +316,6 @@ img{
     color: var(--text);
     text-decoration: none;
     font-weight: 700;
-    font-family: 'Syne';
     padding: 15px 35px;
 }
 
@@ -345,8 +345,7 @@ img{
 #how-works{
     min-height: 80vh;
     height: auto;
-    margin: 20px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     margin-top: 30px;
     animation: fadeInUp  ease-out;    
@@ -461,8 +460,7 @@ img{
 #saas-cap{
     min-height: 40vh;
     height: auto;
-    margin: 20px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     margin-top: 30px;
     animation: fadeInUp  ease-out;    
@@ -527,8 +525,7 @@ h6{
 #why-us{
     min-height: 80vh;
     height: auto;
-    margin: 20px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     margin-top: 30px;
     animation: fadeInUp  ease-out;  
@@ -561,19 +558,13 @@ h6{
 }
 
 .logo{
-    background: var(--bg);
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 10px;
     font-size: 30px;
     color: var(--accent);
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .logo i{
-    width: 35px;
+    width: 30px;
 }
 
 .use-card{

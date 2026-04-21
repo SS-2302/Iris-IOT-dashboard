@@ -230,6 +230,19 @@
         margin: auto;
     }
 
+    .dash-img img{
+        /* height: 300px; */
+        width: 100%;
+    }
+
+    .dash-img{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 5px;
+        margin-top: 50px;
+    }
+
     .heading h1 {
         font-size: 25px;
     }

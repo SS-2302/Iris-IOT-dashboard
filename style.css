@@ -39,6 +39,15 @@ h1, h2, h3, h4,nav,.syne { font-family: 'Poppins', sans-serif; }
 }
 
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 nav{
     position: sticky; top:0; left:0; right:0; z-index: 1;
     display:flex; 
@@ -101,6 +110,22 @@ span{
     opacity:.88; 
     transform:translateY(-2px);
 }
+
+/* hide hamburger on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  border-radius: 5px;
+}
+
 
 /* HERO SECTION */
 #hero{
@@ -358,6 +383,18 @@ img{
     gap: 30px;
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
+}
+.slider-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.sample-dash:hover .slider-track {
+  animation-play-state: paused;
+  cursor: pointer;
 }
 
 .dash-img-1 img, .dash-img-2 img{

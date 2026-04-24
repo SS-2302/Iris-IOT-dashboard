@@ -5,11 +5,10 @@
     --bg2:       #020F35;
     --panel:     #071540;
     --panel2:    #0A1C50;
-    --border:    rgba(0, 179, 255, 0.226);
-    --accent:    #00c8ff;
-    --accent2:   #0072FF;
-    --accent3:   #00FFB2;
-    --accent4:   #00c8ff23;
+    --border:    rgba(255, 136, 0, 0.226);
+    --accent:    #ff5700;
+    --accent2:   #d84800;
+    --accent4:   #ff55001f;
     --text:      #E8F0FF;
     --muted:     rgba(180, 200, 255, 0.733);
     --glow:      0 0 32px rgba(0,198,255,0.22);
@@ -63,6 +62,11 @@ nav{
 
 .nav-btn{
     padding: 10px 20px;
+    transition: all 200ms ease;
+}
+
+.nav-btn:hover{
+    color: var(--accent);
 }
 
 
@@ -142,7 +146,7 @@ span{
 
 .top-card p{
     border: 0.1px solid var(--accent);
-    color: #00C6FF;
+    color: var(--muted);
     background-color: var(--border);
     font-size: 13px;
     opacity: 80%;
@@ -204,7 +208,7 @@ img{
 
 
 .down-arrow i{
-    color: #00c8ff96;
+    color: var(--accent);
     font-size: 25px;
 }
 
